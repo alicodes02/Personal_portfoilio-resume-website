@@ -1,0 +1,224 @@
+.About {
+    background-color:  rgb(1,46,68);
+    color: white;
+    width: 100%;
+    height: 700px;
+    padding: 5%;
+    align-content: center;
+}
+
+.About h2 {
+    text-align: left;
+    padding-right: 5%;
+    display: inline;
+}
+
+.About p {
+    margin: auto;
+    text-align: left;
+    font-size: 20px;
+    font-style: italic;
+    padding-right: 5%;
+}
+
+.profile_pic {
+
+    width: 30%;
+    float: right;
+    background-color: rgb(1,46,68);
+    border-radius: 50%;
+    border : black 10px solid;
+    margin-left: 7%;
+    
+}
+
+
+.navbar {
+    background-color: rgb(1,46,68);
+    color: white;
+    float: right;
+    width: 100%;
+}
+
+.navbar h2 {
+    background-color: rgb(1,46,68);
+    display: inline;
+    padding-left: 5%;
+}
+
+.navbar ul {
+
+    display: inline-block;
+    text-align: right;
+    list-style: none;
+    padding: 0;
+    color: white;
+    margin-right: 7%;
+}
+
+.navbar li {
+
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    width: 110px;
+    display: block;
+    padding: 25px 20px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background: brown;
+    color: white;
+}
+
+.Education {
+    background-color: rgb(29,41,62);
+    width: 100%;
+    height: 100%;
+    color: white;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.Education img {
+    margin-right: 4%;
+}
+
+.Education h1 {
+    padding-top: 30px;
+    text-align: center;
+    margin-right: 120px;
+}
+
+.Education ul {
+    list-style-type: circle;
+    margin-top: 30px ;
+    text-align: left;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.Education label {
+    font-weight: normal;
+    color: antiquewhite;
+    font-style: italic;
+}
+
+.ed {
+    margin-top: 50px;
+}
+
+.Skills {
+    background-color: rgb(29,41,62);
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.Skills h1{
+
+    text-align: center;
+    
+}
+
+.skill{
+    display: inline-block;
+    margin: 2%;
+}
+
+.skill img {
+    width: 300px;
+    height: 300px;
+}
+
+.skill p {
+    text-align:center;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.Projects {
+    width: 100%;
+    height: 100%;
+    background-color:  rgb(1,46,68);
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    padding:5%;
+    transition: 1s;
+}
+
+.Projects img {
+    margin-right: 5%;
+}
+
+.Projects ul {
+    list-style-type: circle;
+    margin-top: 30px ;
+    text-align: left;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.Projects label {
+    font-weight: normal;
+    color: antiquewhite;
+    font-style: italic;
+}
+
+.proj {
+    margin-top: 50px;
+    width: 20%;
+}
+
+.Projects a {
+
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+ .proj :hover {
+
+    background-color: rgb(29,41,62);
+    border: 2px solid gray;
+    box-sizing: content-box;
+    color: white;
+}
+
+.Projects h1 {
+    margin-right: 10%;
+}
+
+footer img{
+
+    width: 5%;
+    height: 5%;
+    padding: 4px;
+}
+
+footer {
+
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    padding-left: 2%;
+    background-color: white;
+    color: black;
+}
+
+footer h1 {
+    padding-top: 5%;
+}
+
+footer label {
+    
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
