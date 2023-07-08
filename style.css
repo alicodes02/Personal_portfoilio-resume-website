@@ -128,7 +128,8 @@
 
 .skill{
     display: inline-block;
-    margin: 2%;
+    margin: auto;
+    padding: 3%;
 }
 
 .skill img {
