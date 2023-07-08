@@ -33,7 +33,7 @@ GitHub Pages
 **Setup**
 To set up this portfolio website locally, follow these steps:
 
-1. Clone the repository: git clone https://github.com/your-username/portfolio.git
+1. Clone the repository: git clone https://github.com/alicodes02/alicodes02/github.io.git
 2. Navigate to the project directory: cd portfolio
 3. Open the index.html file in your preferred web browser.
    
