@@ -1,53 +1,27 @@
-.About {
-    background-color:  rgb(1,46,68);
-    color: white;
-    width: 100%;
-    height: 700px;
-    padding: 5%;
-    align-content: center;
-}
-
-.About h2 {
-    text-align: left;
-    padding-right: 5%;
-    display: inline;
-}
-
-.About p {
-    margin: auto;
-    text-align: left;
-    font-size: 20px;
-    font-style: italic;
-    padding-right: 5%;
-}
-
-.profile_pic {
-
-    width: 30%;
-    float: right;
-    background-color: rgb(1,46,68);
-    border-radius: 50%;
-    border : black 10px solid;
-    margin-left: 7%;
-    
+=
+body {
+    margin: 0;
 }
 
 
 .navbar {
-    background-color: rgb(1,46,68);
+    background-color: rgb(1, 46, 68);
     color: white;
-    float: right;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    z-index: 999;
+    margin-bottom: 0;
 }
 
 .navbar h2 {
-    background-color: rgb(1,46,68);
     display: inline;
     padding-left: 5%;
 }
 
 .navbar ul {
-
     display: inline-block;
     text-align: right;
     list-style: none;
@@ -57,7 +31,6 @@
 }
 
 .navbar li {
-
     display: inline-block;
 }
 
@@ -75,38 +48,72 @@
     color: white;
 }
 
-.Education {
-    background-color: rgb(29,41,62);
-    width: 100%;
-    height: 100%;
+.About {
+    background-color: rgb(1, 46, 68);
     color: white;
-    overflow: hidden;
-    transition: 1s;
+    text-align: center;
+    padding-left: 5%;
+    padding-bottom: 5%;
 }
 
-.Education img {
-    margin-right: 4%;
+.About h2 {
+    text-align: center;
+    padding-right: 5%;
+    display: inline;
+    padding-left: 5%;
+}
+
+.About p {
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    padding-right: 5%;
+}
+
+.profile_pic {
+    width: 30%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(1, 46, 68);
+    border-radius: 50%;
+    border: black 5px solid;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Education {
+    background-color: rgb(29, 41, 62);
+    color: white;
+    padding: 5%;
+    text-align: center;
 }
 
 .Education h1 {
-    padding-top: 30px;
     text-align: center;
     margin-right: 120px;
 }
 
 .Education ul {
     list-style-type: circle;
-    margin-top: 30px ;
+    margin-top: 30px;
     text-align: left;
     font-size: larger;
     font-weight: bold;
-    margin-left: 5%;
 }
 
-.Education label {
-    font-weight: normal;
-    color: antiquewhite;
-    font-style: italic;
+.Education img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right_align {
+    float: right;
 }
 
 .ed {
@@ -114,63 +121,49 @@
 }
 
 .Skills {
-    background-color: rgb(29,41,62);
-    width: 100%;
-    height: 100%;
+    background-color: rgb(29, 41, 62);
     color: white;
-}
-
-.Skills h1{
-
+    padding: 5%;
     text-align: center;
-    
 }
 
-.skill{
+.Skills h1 {
+    text-align: center;
+}
+
+.skill {
     display: inline-block;
-    margin: auto;
+    margin: 20px;
     padding: 3%;
 }
 
 .skill img {
     width: 200px;
     height: 200px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .skill p {
-    text-align:center;
+    text-align: center;
     color: white;
     padding: 5px;
     font-weight: bold;
 }
 
 .Projects {
-    width: 100%;
-    height: 100%;
-    background-color:  rgb(1,46,68);
+    background-color: rgb(1, 46, 68);
     color: white;
+    padding: 5%;
     text-align: center;
-    overflow: hidden;
-    padding:5%;
-    transition: 1s;
 }
-
-.Projects img {
-    margin-right: 5%;
-}
-
 .Projects ul {
     list-style-type: circle;
-    margin-top: 30px ;
+    margin-top: 30px;
     text-align: left;
     font-size: larger;
     font-weight: bold;
-}
-
-.Projects label {
-    font-weight: normal;
-    color: antiquewhite;
-    font-style: italic;
 }
 
 .proj {
@@ -179,39 +172,23 @@
 }
 
 .Projects a {
-
     color: white;
     text-decoration: none;
     display: block;
 }
 
- .proj :hover {
-
-    background-color: rgb(29,41,62);
+.Projects a:hover {
+    background-color: rgb(29, 41, 62);
     border: 2px solid gray;
     box-sizing: content-box;
     color: white;
 }
 
-.Projects h1 {
-    margin-right: 10%;
-}
-
-footer img{
-
-    width: 5%;
-    height: 5%;
-    padding: 4px;
-}
-
 footer {
-
-    height: 100%;
-    width: 100%;
-    font-weight: bold;
-    padding-left: 2%;
+    padding: 5% 2%;
     background-color: white;
     color: black;
+    text-align: center;
 }
 
 footer h1 {
@@ -219,7 +196,89 @@ footer h1 {
 }
 
 footer label {
-    
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+}
+
+label {
+    font-style: italic;
+    font-size: large;
+    color: #E8E2E2;
+    font-weight: normal;
+}
+
+footer label {
+    color: black;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 768px) {
+    .profile_pic {
+        width: 40%;
+    }
+
+    .Education img,
+    .Projects img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar h2 {
+        padding-left: 0;
+    }
+
+    .navbar a {
+        display: none;
+    }
+
+    .navbar.responsive .icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .navbar.responsive a {
+        display: block;
+    }
+
+    .About p {
+        font-size: 17px;
+    }
+
+    .navbar h2 {
+        text-align: center;
+        padding-left: 5%;
+    }
+
+    .Education ul {
+        font-size: medium;
+    }
+
+    .Education img {
+        width: 40%;
+    }
+
+    .Projects img {
+        margin-top: 40%;
+    }
+
+    .Projects ul {
+        font-size: medium;
+    }
+
+    #Certifications ul {
+        font-size: medium;
+    }
 }
